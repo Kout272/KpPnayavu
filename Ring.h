@@ -2,6 +2,7 @@
 class Ring
 {
 	int size;
+	int index;
 
 };
 
