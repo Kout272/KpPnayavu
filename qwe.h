@@ -3,5 +3,7 @@ class qwe
 {
 	int  s;
 	int f;
+	int d;
+
 };
 
