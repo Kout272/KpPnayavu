@@ -16,17 +16,11 @@ Appliances::Appliances(Appliances& other) : Technic(other)
 
 Appliances::~Appliances() {}
 
-void Appliances::displayInfo() 
+void Appliances::displayInfo()
 {
-    Technic::displayInfo(); 
-   cout << "Мощность: " << power << " Вт\n"
+    Technic::displayInfo();
+    cout << "Мощность: " << power << " Вт\n"
         << "Функции: " << functions << "\n";
-
-   cout << "Мощность: " << power << " Вт\n"
-       << "Функции: " << functions << "\n";
-
-   cout << "Мощность: " << power << " Вт\n"
-       << "Функции: " << functions << "\n";
 }
 
 int Appliances::getPower() 
@@ -60,15 +54,6 @@ istream& operator>>(istream& in, Appliances& obj)
 }
 
 ostream& operator<<(ostream& out, const Appliances& obj) 
-{
-    out << left;
-    out << setw(20) << static_cast<const Technic&>(obj)
-        << ", Мощность: " << obj.power << " Вт"
-        << ", Функции: " << obj.functions;
-    return out;
-}
-
-ostream& operator<<(ostream& out, const Appliances& obj)
 {
     out << left;
     out << setw(20) << static_cast<const Technic&>(obj)
