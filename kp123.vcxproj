@@ -137,6 +137,7 @@
     <ClInclude Include="Interface.h" />
     <ClInclude Include="ItemCollection.h" />
     <ClInclude Include="ItemIterator.h" />
+    <ClInclude Include="qwe.h" />
     <ClInclude Include="Ring.h" />
     <ClInclude Include="Scientific_literature.h" />
     <ClInclude Include="Sport_Equipment.h" />
@@ -155,6 +156,7 @@
     <ClCompile Include="ItemCollection.cpp" />
     <ClCompile Include="ItemIterator.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="qwe.cpp" />
     <ClCompile Include="Ring.cpp" />
     <ClCompile Include="Scientific_literature.cpp" />
     <ClCompile Include="Electronic_technic.cpp" />
