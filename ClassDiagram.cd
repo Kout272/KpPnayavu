@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Item" Collapsed="true">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACAAAAAACBAAAAAEAAAEACDAAIAMAAAAAAA=</HashCode>
+      <FileName>Item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Book" Collapsed="true">
+    <Position X="9.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAAAAAAAAABAABAAQYAAAAAAIAIAAgABABAAAAA=</HashCode>
+      <FileName>Book.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clothing" Collapsed="true">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAIAAAAgAQJAAAAAAAAQAAgCAAAAAgABIAAA=</HashCode>
+      <FileName>Clothing.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sport_Equipment" Collapsed="true">
+    <Position X="1.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACACAgBABAAAAEQAAAAACAgAACAACAACAA=</HashCode>
+      <FileName>Sport_Equipment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Technic" Collapsed="true">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIAIAgAAAAAAAAARAAAAAAAAEQAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Technic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Artistic_literature" Collapsed="true">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAggAAAAIAABCAAAAKAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Artistic_literature.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Electronic_technic" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAgAABAAAAAAAAAAAAAARAIAA=</HashCode>
+      <FileName>Electronic_technic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Footwear" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAABAAAAAAARABAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Footwear.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scientific_literature" Collapsed="true">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAjAAAAERABBAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Scientific_literature.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemCollection" Collapsed="true">
+    <Position X="15" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAggIAAAAAEIIqAAAACAAEAACAAAQAAQACAAgA=</HashCode>
+      <FileName>ItemCollection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemIterator" Collapsed="true">
+    <Position X="13.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEAAAAAACAAECAAAAAgAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ItemIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionHistory" Collapsed="true">
+    <Position X="13.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEAAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ActionHistory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Action" Collapsed="true">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ActionHistory.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="ActionType" Collapsed="true">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEACAAAAAAAA=</HashCode>
+      <FileName>ActionHistory.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
