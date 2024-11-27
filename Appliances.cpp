@@ -67,3 +67,12 @@ ostream& operator<<(ostream& out, const Appliances& obj)
         << ", Функции: " << obj.functions;
     return out;
 }
+
+ostream& operator<<(ostream& out, const Appliances& obj)
+{
+    out << left;
+    out << setw(20) << static_cast<const Technic&>(obj)
+        << ", Мощность: " << obj.power << " Вт"
+        << ", Функции: " << obj.functions;
+    return out;
+}
