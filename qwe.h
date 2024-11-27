@@ -2,5 +2,6 @@
 class qwe
 {
 	int  s;
+	int f;
 };
 
