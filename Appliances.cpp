@@ -21,6 +21,12 @@ void Appliances::displayInfo()
     Technic::displayInfo(); 
    cout << "Мощность: " << power << " Вт\n"
         << "Функции: " << functions << "\n";
+
+   cout << "Мощность: " << power << " Вт\n"
+       << "Функции: " << functions << "\n";
+
+   cout << "Мощность: " << power << " Вт\n"
+       << "Функции: " << functions << "\n";
 }
 
 int Appliances::getPower() 
