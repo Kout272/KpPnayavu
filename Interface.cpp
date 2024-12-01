@@ -3,38 +3,10 @@
 
 void Interface::start()
 {
-    do
-    {
-        cout << "Выберите тип элементов\n";
-            cout << "1. Предприниматель\n";
-            cout << "2. Турист\n";
-            cout << "3. Бизнесмен\n";
-            cout << "4. Выход\n";
-            type = GetInt(1, 4);
-        system("cls");
-        switch (type)
-        {
-        case 1:
-        {
-            Ring<Predprem> RingList;
-            OperatingRing(RingList);
-        }
-        break;
-        case 2:
-        {
-            Ring<Tourist> RingList;
-            OperatingRing(RingList);
-        }
-        break;
-        case 3:
-        {
-            Ring<Business> RingList;
-            OperatingRing(RingList);
-        }
-        break;
-        }
-    } while (type != 4);
+    cout << "Создайте человека для которого вы хотите вести учет дичных вещей\n";
 }
+//Здесь сделать то как добавлять человека в самом начале
+
 
 template<typename T>
 void Interface::OperatingRing(Ring<T>& list)
@@ -42,23 +14,21 @@ void Interface::OperatingRing(Ring<T>& list)
     T element;
     do
     {
-        cout << "Действия с кольцом\n";
-        GREEN
-            cout << "1. Создать элементы\n";
-        cout << "2. Посмотреть данные\n";
-        cout << "3. Вывести текущий узел\n";
-        RED
-            cout << "4. Удалить текущий узел\n";
-        cout << "5. Удалить все узлы\n";
-        BLUE
-            cout << "6. Поиск по параметру\n";
-        cout << "7. Проверить есть ли узлы\n";
-        cout << "8. Найти человека с максимальным возрастом\n";
-        cout << "9. Найти человека с минимальным возрастом\n";
-        YELLOW
-            cout << "10. Выход\n";
-        RESET
-            choise = GetInt(1, 10);
+        cout << "Действия с коллекцией пердметов\n";
+        cout << " 1. Добавить предмет\n";
+        cout << " 2. Посмотреть все предеметы\n";
+        cout << " 3. Посмотреть текущий предмет\n";
+        cout << " 4. Удалить текущий предмет\n";
+        cout << " 5. Удалить все предметы\n";
+        cout << " 6. Поиск предмета по параметру\n";
+        cout << " 7. Проверить есть ли предметы\n";
+        cout << " 8. Редактировать предмет\n";
+        cout << " 9. Отмена последнего действия\n";
+        cout << "10. Отмена отмены последнего действия\n";
+        cout << "11. Файл TXT\n";
+        cout << "12. Файл BIN\n";
+        cout << "13. Выход\n";
+        choise = GetInt(1, 13);
         system("cls");
         switch (choise)
         {

@@ -138,6 +138,7 @@
     <ClInclude Include="Exception_File.h" />
     <ClInclude Include="Exception_vvod.h" />
     <ClInclude Include="Footwear.h" />
+    <ClInclude Include="Human.h" />
     <ClInclude Include="Interface.h" />
     <ClInclude Include="Ring.h" />
     <ClInclude Include="Scientific_literature.h" />
@@ -156,6 +157,7 @@
     <ClCompile Include="Exception_File.cpp" />
     <ClCompile Include="Exception_vvod.cpp" />
     <ClCompile Include="Footwear.cpp" />
+    <ClCompile Include="Human.cpp" />
     <ClCompile Include="Interface.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="main.cpp" />

@@ -6,15 +6,11 @@ void Ring<T>::ShowCurrent()
 {
     if (current == nullptr)
     {
-        RED
             cout << "Кольцо пустое\n";
-        RESET
     }
     else
     {
-        GREEN
             cout << current->data << endl;
-        RESET
     }
 }
 
@@ -37,9 +33,7 @@ void Ring<T>::RemoveAll()
         if (this->current->next == this->current) {
             delete this->current;
             this->current = nullptr;
-            RED
                 cout << "Кольцо успешно очищено!" << endl;
-            RESET
         }
         else
         {
@@ -50,16 +44,12 @@ void Ring<T>::RemoveAll()
                 tmp = nextNode;
             } while (tmp != this->current);
             this->current = nullptr;
-            RED
                 cout << "Кольцо пусто" << endl;
-            RESET
         }
     }
     else
     {
-        RED
             cout << "Кольцо пусто" << endl;
-        RESET
     }
 }
 
@@ -135,9 +125,7 @@ void Ring<T>::RemoveCurrent()
     Node<T>* tmp = nullptr;
     if (current == nullptr)
     {
-        RED
             cout << "Кольцо пустое\n";
-        RESET
     }
     else
     {
@@ -200,9 +188,7 @@ void Ring<T>::Display()
     Node<T>* tmp = current;
     if (current == NULL)
     {
-        RED
             cout << "Кольцо пустое\n";
-        RESET
     }
     else
     {
