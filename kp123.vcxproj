@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ActionHistory.h" />
     <ClInclude Include="Appliances.h" />
     <ClInclude Include="Artistic_literature.h" />
     <ClInclude Include="Book.h" />
@@ -136,7 +135,6 @@
     <ClInclude Include="Footwear.h" />
     <ClInclude Include="Interface.h" />
     <ClInclude Include="ItemCollection.h" />
-    <ClInclude Include="ItemIterator.h" />
     <ClInclude Include="Ring.h" />
     <ClInclude Include="Scientific_literature.h" />
     <ClInclude Include="Sport_Equipment.h" />
@@ -144,7 +142,6 @@
     <ClInclude Include="Technic.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ActionHistory.cpp" />
     <ClCompile Include="Appliances.cpp" />
     <ClCompile Include="Artistic_literature.cpp" />
     <ClCompile Include="Book.cpp" />
@@ -153,7 +150,6 @@
     <ClCompile Include="Interface.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="ItemCollection.cpp" />
-    <ClCompile Include="ItemIterator.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Ring.cpp" />
     <ClCompile Include="Scientific_literature.cpp" />
