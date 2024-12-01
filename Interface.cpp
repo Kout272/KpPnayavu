@@ -8,6 +8,8 @@ void Interface::start()
 //Здесь сделать то как добавлять человека в самом начале
 
 
+
+//Переделать функционал для всего этого
 template<typename T>
 void Interface::OperatingRing(Ring<T>& list)
 {
@@ -34,16 +36,12 @@ void Interface::OperatingRing(Ring<T>& list)
         {
         case 1:
         {
-            GREEN
                 cout << "Введите количество элементов:\n";
-            RESET
                 int number;
             number = GetInt(1, 99);
             for (int i = 0; i < number; i++)
             {
-                GREEN
                     cout << "Вводите элемент:\n";
-                RESET
                     cin >> element;
                 rewind(stdin);
                 list.Push(element);
@@ -54,9 +52,7 @@ void Interface::OperatingRing(Ring<T>& list)
         break;
         case 2:
         {
-            GREEN
                 cout << "Содержимое кольца:\n";
-            RESET
                 if (!list.Empty())element.shapka();
             list.Display();
             system("pause");
@@ -89,15 +85,11 @@ void Interface::OperatingRing(Ring<T>& list)
             BLUE
                 if (list.Search())
                 {
-                    GREEN
                         cout << "Данный элемент содержится в кольце" << endl;
-                    RESET
                 }
                 else
                 {
-                    RED
                         cout << "Данный элемент не содержится в кольце или оно пустое" << endl;
-                    RESET
                 }
             system("pause");
         }
@@ -107,15 +99,11 @@ void Interface::OperatingRing(Ring<T>& list)
 
             if (list.Empty())
             {
-                RED
                     cout << "Кольцо пустое!" << endl;
-                RESET
             }
             else
             {
-                BLUE
                     cout << "В кольце содержатся элементы!" << endl;
-                RESET
             }
 
             system("pause");
@@ -124,9 +112,7 @@ void Interface::OperatingRing(Ring<T>& list)
         break;
         case 8:
         {
-            BLUE
                 cout << "Человек с максимальным возрастом:\n";
-            RESET
                 list.FindMax();
             system("pause");
             system("cls");
@@ -134,9 +120,7 @@ void Interface::OperatingRing(Ring<T>& list)
         break;
         case 9:
         {
-            BLUE
                 cout << "Человек с минимальным возрастом:\n";
-            RESET
                 list.FindMin();
             system("pause");
             system("cls");
@@ -145,9 +129,7 @@ void Interface::OperatingRing(Ring<T>& list)
         case 10:break;
         default:
         {
-            RED
                 cout << "Введен неверный номер!!!\n";
-            RESET
                 system("pause");
             system("cls");
         }

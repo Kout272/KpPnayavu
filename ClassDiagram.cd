@@ -1,64 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Human" Collapsed="true">
-    <Position X="7.5" Y="1" Width="1.5" />
+    <Position X="15.75" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAIAACAAAAAACBAAAAAEAAAAACDAAIAMAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAFAEAAQABAAAAACAAAAAAAQAAAA=</HashCode>
       <FileName>Human.h</FileName>
       <NewMemberFileName>Item.h</NewMemberFileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Book" Collapsed="true">
-    <Position X="12" Y="2.25" Width="1.5" />
+    <Position X="9.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAEBAAAAAAAAABAABAAQYAAAAAAIAIAAgABABAAAAA=</HashCode>
       <FileName>Book.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Clothing" Collapsed="true">
-    <Position X="4.25" Y="2.25" Width="1.5" />
+    <Position X="2" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAAAAAAAAIAAAAgAQJAAAAAAAAQAAgCAAAAAgABIAAA=</HashCode>
       <FileName>Clothing.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sport_Equipment" Collapsed="true">
-    <Position X="2" Y="2.25" Width="1.5" />
+    <Position X="13.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACACAgBABAAAAEQAAAAACAgAACAACAACAA=</HashCode>
       <FileName>Sport_Equipment.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Technic" Collapsed="true">
-    <Position X="7.5" Y="2.25" Width="1.5" />
+    <Position X="5.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEIAIAgAAAAAAAAARAAAAAAAAEQAAAAAAAAAAAIAAA=</HashCode>
       <FileName>Technic.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Artistic_literature" Collapsed="true">
-    <Position X="11" Y="3.75" Width="1.5" />
+    <Position X="8.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAgAggAAAAIAABCAAAAKAAAAAAAgAAAAAAAAAAA=</HashCode>
       <FileName>Artistic_literature.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Electronic_technic" Collapsed="true">
-    <Position X="8.75" Y="3.75" Width="1.5" />
+    <Position X="6.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAABAAgAABAAAAAAAAAAAAAARAIAA=</HashCode>
       <FileName>Electronic_technic.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Footwear" Collapsed="true">
-    <Position X="4.25" Y="3.75" Width="1.5" />
+    <Position X="2" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAACAAAAABAAAAAAARABAAAAAgAAAAAAAAA=</HashCode>
       <FileName>Footwear.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Scientific_literature" Collapsed="true">
-    <Position X="13.25" Y="3.75" Width="1.5" />
+    <Position X="11" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAjAAAAERABBAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
       <FileName>Scientific_literature.h</FileName>
@@ -93,31 +93,38 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Appliances" Collapsed="true">
-    <Position X="6.5" Y="3.75" Width="1.5" />
+    <Position X="4.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAhAAAAAgAAEAABAAAAEAAAAAAQM=</HashCode>
       <FileName>Appliances.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Node&lt;T&gt;" Collapsed="true">
-    <Position X="17.5" Y="1" Width="1.5" />
+    <Position X="15.75" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAIAAAA=</HashCode>
       <FileName>Ring.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Ring&lt;T&gt;" Collapsed="true">
-    <Position X="15.75" Y="2" Width="1.5" />
+    <Position X="17.5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAQAAgAAAAAAAIAAQAQgAggAAAAIEAAABAgCAA=</HashCode>
       <FileName>Ring.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Interface" Collapsed="true">
-    <Position X="15.75" Y="1" Width="1.5" />
+    <Position X="17.5" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACgAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item" Collapsed="true">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACAAAAAACBAAAAAEAAAEACDAAIAMAAAAAAA=</HashCode>
+      <FileName>Item.h</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
