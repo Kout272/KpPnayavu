@@ -12,6 +12,7 @@ template<typename T>
 void Interface::OperatingRing(Ring<T>& list)
 {
     LinkedList<Ring<Item>> reseter;
+    reseter.insertRight(list);
     if (!list.Empty())
         reseter.insertRight(list);
     T element;
@@ -29,9 +30,8 @@ void Interface::OperatingRing(Ring<T>& list)
         cout << " 9. Отмена последнего действия\n";
         cout << "10. Отмена отмены последнего действия\n";
         cout << "11. Файл TXT\n";
-        cout << "12. Файл BIN\n";
-        cout << "13. Выход\n";
-        choise = GetInt(1, 13);
+        cout << "12. Выход\n";
+        choise = GetInt(1, 12);
         system("cls");
         switch (choise)
         {

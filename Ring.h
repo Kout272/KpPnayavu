@@ -9,7 +9,7 @@ public:
     T data;
     Node* prev;
     Node* next;
-    Node(T dat) :prev(nullptr), next(nullptr), data(dat) {}
+    Node(T& dat) :prev(nullptr), next(nullptr), data(dat) {}
     Node() :prev(nullptr), next(nullptr), data() {}
 };
 
@@ -21,7 +21,7 @@ class Ring
 public:
     Ring();
     Ring(const Ring& other);
-    void Push(T data);
+    void Push(T& data);
     void Display();
     void RemoveCurrent();
     bool Empty();

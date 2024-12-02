@@ -17,21 +17,21 @@ protected:
 
 public:
     LinkedList() : head(nullptr), tail(nullptr), cursor(nullptr), size(0) {}
-    LinkedList(T val) : cursor(nullptr), size(1) {
+    LinkedList(T& val) : cursor(nullptr), size(1) {
         head = new Node<T>(val);
         tail = head;
     }
     ~LinkedList() { clear(); }
 
-    void insertLeft(T item);
-    void insertRight(T item);
-    T removeLeft();
-    T removeRight();
+    void insertLeft(T &item);
+    void insertRight(T& item);
+    T& removeLeft();
+    T& removeRight();
     void clear();
     bool isEmpty();
     void resetCursor() { cursor = head; }
     void tailCursor() { cursor = tail; }
-    T getValue();
+    T& getValue();
     size_t getSize() const { return size; } // Function to return the size
 
     Node<T>* operator++();
@@ -45,7 +45,7 @@ bool LinkedList<T>::isEmpty() {
 }
 
 template<class T>
-void LinkedList<T>::insertLeft(T item) {
+void LinkedList<T>::insertLeft(T& item) {
     Node<T>* newNode = new Node<T>(item);
     if (!isEmpty()) {
         newNode->next = head;
@@ -59,7 +59,7 @@ void LinkedList<T>::insertLeft(T item) {
 }
 
 template<class T>
-void LinkedList<T>::insertRight(T item) {
+void LinkedList<T>::insertRight(T& item) {
     Node<T>* newNode = new Node<T>(item);
     if (!isEmpty()) {
         tail->next = newNode;
@@ -73,7 +73,7 @@ void LinkedList<T>::insertRight(T item) {
 }
 
 template<class T>
-T LinkedList<T>::removeRight() {
+T& LinkedList<T>::removeRight() {
     if (isEmpty()) throw std::runtime_error("List is empty");
     T val = tail->data;
     Node<T>* temp = tail;
@@ -88,7 +88,7 @@ T LinkedList<T>::removeRight() {
 }
 
 template<class T>
-T LinkedList<T>::removeLeft() {
+T& LinkedList<T>::removeLeft() {
     if (isEmpty()) throw std::runtime_error("List is empty");
     T val = head->value;
     Node<T>* temp = head;
@@ -117,9 +117,9 @@ void LinkedList<T>::clear() {
 }
 
 template<class T>
-T LinkedList<T>::getValue() {
+T& LinkedList<T>::getValue() {
     if (cursor == nullptr) throw std::runtime_error("Cursor is null");
-    return cursor->value;
+    return cursor->data;
 }
 
 template<class T>

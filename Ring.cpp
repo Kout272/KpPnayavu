@@ -161,7 +161,7 @@ Ring<T>::Ring()
 }
 
 template <typename T>
-void Ring<T>::Push(T data)
+void Ring<T>::Push(T& data)
 {
     Node<T>* tmp = new Node<T>;
     tmp->data = data;

@@ -19,3 +19,4 @@
 #include"Sport_Equipment.h"
 #include"Technic.h"
 #include"Interface.h"
+#include"Footwear.h"
