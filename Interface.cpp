@@ -36,6 +36,7 @@ void Interface::OperatingRing(Ring<T>& list)
         switch (choise)
         {
         case 1:
+            //Добавить здесь добавление предметов по группам 
         {
                 cout << "Введите количество элементов:\n";
                 int number;
@@ -60,6 +61,7 @@ void Interface::OperatingRing(Ring<T>& list)
         }
         break;
         case 2:
+            //Сделать вывод предметов по группам
         {
                 cout << "Содержимое кольца:\n";
             list.Display();
