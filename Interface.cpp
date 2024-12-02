@@ -3,11 +3,6 @@
 #include"Item.h"
 #include "Interface.h"
 
-//void Interface::start()
-//{
-//    cout << "Создайте человека для которого вы хотите вести учет дичных вещей\n";
-//}
-//Переделать функционал для всего этого
 template<typename T>
 void Interface::OperatingRing(Ring<T>& list)
 {
