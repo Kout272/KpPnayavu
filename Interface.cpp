@@ -7,7 +7,7 @@ template<typename T>
 void Interface::OperatingRing(Ring<T>& list)
 {
     LinkedList<Ring<Item>> reseter;
-    reseter.insertRight(list);
+    //reseter.insertRight(list);
     if (!list.Empty())
         reseter.insertRight(list);
     T element;
