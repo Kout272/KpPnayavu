@@ -18,9 +18,6 @@
     <ClInclude Include="Item.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Book.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="Technic.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
@@ -28,12 +25,6 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Clothing.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Scientific_literature.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Artistic_literature.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Footwear.h">

@@ -128,8 +128,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Appliances.h" />
-    <ClInclude Include="Artistic_literature.h" />
-    <ClInclude Include="Book.h" />
     <ClInclude Include="Clothing.h" />
     <ClInclude Include="Electronic_technic.h" />
     <ClInclude Include="Errors.h" />
@@ -142,7 +140,6 @@
     <ClInclude Include="Interface.h" />
     <ClInclude Include="Reseter.h" />
     <ClInclude Include="Ring.h" />
-    <ClInclude Include="Scientific_literature.h" />
     <ClInclude Include="Sport_Equipment.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Technic.h" />
