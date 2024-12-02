@@ -137,17 +137,19 @@ void Interface::OperatingRing(Ring<T>& list)
             system("cls");
         }
         break;
-        case 10:break;
+        case 10:
+        if (cz != 0)
+        {
+            cz--;
+            ++reseter;
+            list = reseter.getValue();
+        }
+               system("pause");
+               system("cls");
+            break;
         default:
         {
-            if (cz != 0)
-            {
-                cz--;
-                ++reseter;
-                list = reseter.getValue();
-            }
-                system("pause");
-            system("cls");
+           
         }
         }
         system("cls");
