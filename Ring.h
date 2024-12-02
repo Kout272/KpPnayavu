@@ -7,8 +7,10 @@ class Node
 {
 public:
     T data;
-    Node<T>* prev;
-    Node<T>* next;
+    Node* prev;
+    Node* next;
+    Node(T dat) :prev(nullptr), next(nullptr), data(dat) {}
+    Node() :prev(nullptr), next(nullptr), data() {}
 };
 
 template <typename T>

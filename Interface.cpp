@@ -1,18 +1,19 @@
 #pragma once
+#include"Reseter.h"
+#include"Item.h"
 #include "Interface.h"
 
-void Interface::start()
-{
-    cout << "Создайте человека для которого вы хотите вести учет дичных вещей\n";
-}
-//Здесь сделать то как добавлять человека в самом начале
-
-
-
+//void Interface::start()
+//{
+//    cout << "Создайте человека для которого вы хотите вести учет дичных вещей\n";
+//}
 //Переделать функционал для всего этого
 template<typename T>
 void Interface::OperatingRing(Ring<T>& list)
 {
+    LinkedList<Ring<Item>> reseter;
+    if (!list.Empty())
+        reseter.insertRight(list);
     T element;
     do
     {
@@ -48,12 +49,19 @@ void Interface::OperatingRing(Ring<T>& list)
             }
             system("pause");
             system("cls");
+            if(cz != 0)
+            {
+                for (int i = 0;i < cz;i++)
+                    reseter.removeRight();
+                cz = 0;
+            }
+            reseter.insertRight(list);
+            reseter.tailCursor();
         }
         break;
         case 2:
         {
                 cout << "Содержимое кольца:\n";
-                if (!list.Empty())element.shapka();
             list.Display();
             system("pause");
             system("cls");
@@ -69,6 +77,7 @@ void Interface::OperatingRing(Ring<T>& list)
         case 4:
         {
             list.RemoveCurrent();
+            reseter.insertRight(list);
             system("pause");
             system("cls");
         }
@@ -76,14 +85,14 @@ void Interface::OperatingRing(Ring<T>& list)
         case 5:
         {
             list.RemoveAll();
+            reseter.insertRight(list);
             system("pause");
             system("cls");
         }
         break;
         case 6:
         {
-            BLUE
-                if (list.Search())
+             /*   if (list.Search())
                 {
                         cout << "Данный элемент содержится в кольце" << endl;
                 }
@@ -91,7 +100,7 @@ void Interface::OperatingRing(Ring<T>& list)
                 {
                         cout << "Данный элемент не содержится в кольце или оно пустое" << endl;
                 }
-            system("pause");
+            system("pause");*/
         }
         break;
         case 7:
@@ -112,16 +121,16 @@ void Interface::OperatingRing(Ring<T>& list)
         break;
         case 8:
         {
-                cout << "Человек с максимальным возрастом:\n";
-                list.FindMax();
+                
             system("pause");
             system("cls");
         }
         break;
         case 9:
         {
-                cout << "Человек с минимальным возрастом:\n";
-                list.FindMin();
+            cz++;
+            --reseter;
+            list = reseter.getValue();
             system("pause");
             system("cls");
         }
@@ -129,11 +138,16 @@ void Interface::OperatingRing(Ring<T>& list)
         case 10:break;
         default:
         {
-                cout << "Введен неверный номер!!!\n";
+            if (cz != 0)
+            {
+                cz--;
+                ++reseter;
+                list = reseter.getValue();
+            }
                 system("pause");
             system("cls");
         }
         }
         system("cls");
-    } while (choise != 10);
+    } while (choise != 13);
 }

@@ -1,13 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Human" Collapsed="true">
-    <Position X="11" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAFAEAAQABAAAAACAAAAAAAQAAAA=</HashCode>
-      <FileName>Human.h</FileName>
-      <NewMemberFileName>Item.h</NewMemberFileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Clothing" Collapsed="true">
     <Position X="1.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
@@ -81,7 +73,7 @@
   <Class Name="Node&lt;T&gt;" Collapsed="true">
     <Position X="11" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAIAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAMAAAA=</HashCode>
       <FileName>Ring.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -93,9 +85,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Interface" Collapsed="true">
-    <Position X="12.75" Y="1" Width="1.5" />
+    <Position X="11" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACgAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACgAAAAAAABAAAAAAAABAAAAAgAAAAAAAAA=</HashCode>
       <FileName>Interface.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -104,6 +96,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAIAACAAAAAACBAAAAAEAAAEACDAAIAMAAAAAAA=</HashCode>
       <FileName>Item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinkedList&lt;T&gt;" Collapsed="true">
+    <Position X="12.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQQAAoAgJAAACEAQIEABgAAAAAAAAAAAgAAAAAAQgA=</HashCode>
+      <FileName>Reseter.h</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

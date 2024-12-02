@@ -65,24 +65,24 @@ Ring<T>::Ring(const Ring& other)
 
 }
 
-template<typename T>
-bool Ring<T>::Search()
-{
-    cout << "¬ведите фамилию, которую вы хотите найти: ";
-    string surname;
-    cin >> surname;
-    if (this->current == nullptr) return false;
-    else
-    {
-        Node<T>* tmp = this->current;
-        do {
-            if (tmp->data.Human::getSurname() == surname) return true;
-            tmp = tmp->next;
-        } while (tmp != this->current);
-        cout << endl;
-        return false;
-    }
-}
+//template<typename T>
+//bool Ring<T>::Search()
+//{
+//    cout << "¬ведите фамилию, которую вы хотите найти: ";
+//    string surname;
+//    cin >> surname;
+//    if (this->current == nullptr) return false;
+//    else
+//    {
+//        Node<T>* tmp = this->current;
+//        do {
+//            if (tmp->data.Human::getSurname() == surname) return true;
+//            tmp = tmp->next;
+//        } while (tmp != this->current);
+//        cout << endl;
+//        return false;
+//    }
+//}
 
 template <typename T>
 void  Ring<T>::FindMax()

@@ -21,12 +21,10 @@ int GetInt(int min, int max, istream& in)
 			flag = true;
 		}
 		catch (Exception_vvod& ex)
-		{
-			RED
-				in.clear();
+		{				in.clear();
 			in.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 			cout << ex.What();
-			RESET
+
 				system("pause");
 		}
 	}
@@ -52,11 +50,11 @@ int GetInt(int min, int max)
 		}
 		catch (Exception_vvod& ex)
 		{
-			RED
+
 				cin.clear();
 			cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 			cout << ex.What();
-			RESET
+
 				system("pause");
 		}
 	}
@@ -105,11 +103,10 @@ string GetDate()
 		}
 		catch (Exception_vvod& ex)
 		{
-			RED
-				cin.clear();
+					cin.clear();
 			cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 			cout << ex.What();
-			RESET
+		
 				system("pause");
 		}
 	}
@@ -158,11 +155,11 @@ string GetDate(istream& in)
 		}
 		catch (Exception_vvod& ex)
 		{
-			RED
+		
 				in.clear();
 			in.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 			cout << ex.What();
-			RESET
+		
 				system("pause");
 		}
 	}
@@ -193,11 +190,11 @@ string GetName()
 		}
 		catch (Exception_vvod& ex)
 		{
-			RED
+	
 				cin.clear();
 			cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 			cout << ex.What();
-			RESET
+
 				system("pause");
 		}
 	}
@@ -228,11 +225,11 @@ string GetName(istream& in)
 		}
 		catch (Exception_vvod& ex)
 		{
-			RED
+		
 				in.clear();
 			in.ignore(numeric_limits<streamsize>::max(), '\n');
 			cout << ex.What();
-			RESET
+		
 				system("pause");
 		}
 	}
@@ -259,11 +256,11 @@ string GetTitle()
 		}
 		catch (Exception_vvod& ex)
 		{
-			RED
+
 				cin.clear();
 			cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 			cout << ex.What();
-			RESET
+
 				system("pause");
 		}
 	}
@@ -290,11 +287,11 @@ string GetTitle(istream& in)
 		}
 		catch (Exception_vvod& ex)
 		{
-			RED
+	
 				in.clear();
 			in.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 			cout << ex.What();
-			RESET
+		
 				system("pause");
 		}
 	}
