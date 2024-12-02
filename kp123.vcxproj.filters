@@ -74,9 +74,6 @@
     <ClCompile Include="Item.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Book.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="Technic.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -88,12 +85,6 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Файлы ресурсов</Filter>
-    </ClCompile>
-    <ClCompile Include="Scientific_literature.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Artistic_literature.cpp">
-      <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Footwear.cpp">
       <Filter>Исходные файлы</Filter>

@@ -148,8 +148,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Appliances.cpp" />
-    <ClCompile Include="Artistic_literature.cpp" />
-    <ClCompile Include="Book.cpp" />
     <ClCompile Include="Clothing.cpp" />
     <ClCompile Include="Errors.cpp" />
     <ClCompile Include="ExceptionBase.cpp" />
@@ -162,7 +160,6 @@
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Ring.cpp" />
-    <ClCompile Include="Scientific_literature.cpp" />
     <ClCompile Include="Electronic_technic.cpp" />
     <ClCompile Include="Sport_Equipment.cpp" />
     <ClCompile Include="Technic.cpp" />
